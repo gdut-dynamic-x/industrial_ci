@@ -83,7 +83,7 @@ function ici_isolate() {
       unset ROS_DISTRO
   fi
 
-  ici_forward_mount TARGET_REPO_PATH ro
+  ici_forward_mount TARGET_REPO_PATH rw
   ici_forward_mount ICI_SRC_PATH ro
   ici_forward_mount BASEDIR rw
   ici_forward_mount CCACHE_DIR rw
