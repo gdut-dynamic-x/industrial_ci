@@ -1,7 +1,7 @@
-function prepare_do_nothing() {
+function prepare_skip() {
     true
 }
 
-function run_do_nothing() {
+function run_skip() {
     true
 }
